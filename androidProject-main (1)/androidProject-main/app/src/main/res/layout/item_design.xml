@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/EventCard"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="30dp">
+
+            <ImageView
+                android:id="@+id/EventImg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/listitem1"
+                android:contentDescription="EventImageDisplay" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/EventName"
+            android:layout_width="122dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/EventCard"
+            android:text="Hemant"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/EventDetails"
+            android:layout_width="122dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/EventName"
+            android:layout_marginLeft="20dp"
+            android:text="Hello Bro ?"
+            android:textSize="12sp">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

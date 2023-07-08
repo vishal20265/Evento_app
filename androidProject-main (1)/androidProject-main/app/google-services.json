@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "644331867039",
+    "project_id": "eventoandroidproject",
+    "storage_bucket": "eventoandroidproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644331867039:android:2cc7d03ea31bae83014baa",
+        "android_client_info": {
+          "package_name": "com.example.evento"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644331867039-qaaq64aq8qbcb2sg7idborq56i229rl2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh8eR8Hh3rXC_icTQZUJrADdTbkaLyQJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644331867039-qaaq64aq8qbcb2sg7idborq56i229rl2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

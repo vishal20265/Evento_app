@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Evento</string>
+
+    <string name="facebook_app_id">220235550680368</string>
+    <string name="fb_login_protocol_scheme">fb220235550680368</string>
+    <string name="facebook_client_token">8bc7f6999447967931702522285c460f</string>
+
+    <string name="app_title">evento</string>
+    <string name="enterotp">Enter OTP Here</string>
+    <string name="verify">Verify</string>
+</resources>
